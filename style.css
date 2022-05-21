@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "montserrat";
+}
+section {
+  width: 26rem;
+  border: 2px solid red;
+  /* opacity: 0.7; */
+}
+
+.mail {
+  width: 90%;
+  padding: 6px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+section form h2,
+input {
+  margin-left: 15px;
+  padding: 4px 0px;
+  border: none;
+  outline: none;
+}
+
+label {
+  display: inline-block;
+  padding: 6px;
+}
+section form .mail input {
+  width: 100%;
+}
+
+.shipping {
+  margin-top: 3rem;
+}
+
+.country-post {
+  display: flex;
+}
+
+.country-post label {
+  display: block;
+}
+
+select {
+  display: inline-block;
+  height: 2rem;
+  width: 7rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.country {
+  margin-right: 10px;
+}
+
+.post {
+  width: 62%;
+}
+
+.country i {
+  position: relative;
+  left: -7rem;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.checkbox p {
+  margin-left: 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+.button {
+  width: 6rem;
+  height: 3rem;
+  margin-right: 1rem;
+  background-color: #f2994a;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+i,
+label,
+p,
+select {
+  color: #828282;
+}
