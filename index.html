@@ -112,54 +112,63 @@
           </form>
         </section>
         <section class="shopping">
-          <div class="item">
+          <div class="item item1">
             <img src="./IMG/photo1.png" alt="" />
 
             <div class="price">
-              <h3>Vintage Backbag</h3>
-              <h3 class="price-orj">$54.99</h3>
+              <h3>Vintage Backpack</h3>
+              <h3 class="price-orj"><i>$</i>54.99</h3>
               <p>
-                <small><del>$94.99</del> </small>
+                <small><del> 94.99</del> </small>
               </p>
 
               <div class="number">
-                <button><i class="fa-solid fa-minus"></i></button>
-                <p>1</p>
-                <button><i class="fa-solid fa-plus"></i></button>
+                <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                <p class="value1">1</p>
+                <button class="plus"><i class="fa-solid fa-plus"></i></button>
               </div>
+              <div><button class="remove remove1">remove</button></div>
             </div>
           </div>
-          <div class="item">
+          <div class="item item2">
             <img src="./IMG/photo2.png" alt="" />
 
             <div class="price">
               <h3>Levi Shoes</h3>
-              <h3 class="price-orj">$74.99</h3>
+              <h3 class="price-orj"><i>$</i> 74.99</h3>
               <p>
                 <small><del>$124.99</del> </small>
               </p>
 
               <div class="number">
-                <button><i class="fa-solid fa-minus"></i></button>
-                <p>1</p>
-                <button><i class="fa-solid fa-plus"></i></button>
+                <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                <p class="value2">1</p>
+                <button class="plus"><i class="fa-solid fa-plus"></i></button>
               </div>
+              <div><button class="remove remove2">remove</button></div>
             </div>
           </div>
           <div class="info">
             <hr />
             <div class="ship">
               <p>Shipping</p>
-              <p>$19</p>
+              <div class="fiyat-flex">
+                <p>$</p>
+                <p>19</p>
+              </div>
             </div>
             <hr />
             <div class="ship">
               <p>Total</p>
-              <p>$148.98</p>
+              <div class="fiyat-flex">
+                <span>$</span>
+                <p class="total1">148.98</p>
+              </div>
             </div>
           </div>
         </section>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
