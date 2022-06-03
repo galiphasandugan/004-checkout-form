@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Check-Out Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>CheckOut</h1>
+    </header>
+    <div class="container">
+      <section>
+        <form action="#" method="get">
+          <h2>Contact Information</h2>
+          <label for="">Email</label>
+          <div class="mail">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="enter your..."
+              required
+            />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <br />
+          <label for="">Phone</label>
+          <div class="mail">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="enter your..."
+              required
+            />
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <br />
+          <h2>Shipping Address</h2>
+          <label for="">Full Name</label>
+          <div class="mail">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="enter your..."
+              required
+            />
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <br />
+          <label for="">Address</label>
+          <div class="mail">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="enter your..."
+              required
+            />
+            <i class="fa-solid fa-house"></i>
+          </div>
+          <br />
+          <label for="">City</label>
+          <div class="mail">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="enter your..."
+              required
+            />
+            <i class="fa-solid fa-city"></i>
+          </div>
+          <br /><br />
+          <div class="country-postal">
+            <div class="country">
+              <select name="" id="dropdown">
+                <option value="">US</option>
+                <option value="">UK</option>
+                <option value="">CANADA</option></select
+              ><i class="fa-solid fa-earth-europe"></i>
+            </div>
+
+            <div class="postal-code">
+              <input type="text" placeholder="enter your postal code" /><i
+                class="fa-solid fa-envelopes-bulk"
+              ></i>
+            </div>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="" id="" checked />
+            <p>See this information next time.</p>
+          </div>
+          <div class="btn">
+            <button class="btn-in" type="submit">Continue</button>
+          </div>
+        </form>
+      </section>
+      <aside>
+        <div class="product1">
+          <img src="./images/photo1.png" alt="Bag" />
+          <div class="text1">
+            <h4>Vintage Backbag</h4>
+            <p>
+              $54.99<small style="text-decoration: line-through">$94.99</small>
+            </p>
+            <div class="quantity">
+              <button class="plus">
+                <i class="fas fa-minus"></i>
+              </button>
+              <p>1</p>
+              <button class="minus">
+                <i class="fas fa-plus"></i>
+              </button>
+              <p class="value1"></p>
+            </div>
+          </div>
+        </div>
+        <div class="product2">
+          <img src="./images/photo2.png" alt="Shoes" />
+          <div class="text2">
+            <h4>Levi Shoes</h4>
+            <p>
+              $74.99<small style="text-decoration: line-through">$124.99</small>
+            </p>
+            <div class="quantity">
+              <button class="plus">
+                <i class="fas fa-minus"></i>
+              </button>
+              <p>1</p>
+              <button class="minus">
+                <i class="fas fa-plus"></i>
+              </button>
+              <p class="value1"></p>
+            </div>
+          </div>
+        </div>
+        <div class="ship-total">
+          <div class="shipping">
+            <p>Shipping</p>
+            <p>$19</p>
+          </div>
+          <div class="total">
+            <p>Total</p>
+            <p>$148.98</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

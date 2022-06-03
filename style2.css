@@ -1,0 +1,355 @@
+/* email :          <i class="fa-solid fa-envelope"></i>
+phone:         <i class="fa-solid fa-phone"></i>
+user:            <i class="fa-solid fa-user"></i>
+adress:        <i class="fa-solid fa-house"></i>
+city:             <i class="fa-regular fa-city"></i>
+Postal C.:    <i class="fa-solid fa-envelopes-bulk"></i>
+country:     <i class="fa-solid fa-earth-europe"></i> */
+
+@media screen and (max-width: 540px) {
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+section {
+    width: 26rem;
+    padding: 1rem 5rem 2rem;
+}
+
+section form {
+    height: 100vh;
+}
+
+section form h2 {
+    padding: 10px;
+    
+}
+
+
+.mail {
+    width: 90%;
+    padding: 6px;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.mail input {
+    width: 80%;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+.country {
+    height: 1.7rem;
+    width: 9rem;
+    padding: 6px;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.postal-code {
+    height: 1.7rem;
+    width: 15rem;
+    margin-left: 2rem;
+    padding: 6px;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.country-postal {
+    display: flex;
+    width: 380px;
+    height: 6rem;
+
+}
+
+#dropdown {
+    width: 92%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.country input {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+.postal-code input {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+label {
+    /* text-underline-offset: 4rem; */
+    display:inline-flex;
+}
+
+label, i {
+    color:rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+    display: flex;
+    justify-content:right;
+}
+
+.btn-in {
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 20px;
+    background-color: darkorange;
+    color: aliceblue;
+    font-size: medium;
+}
+
+.checkbox {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+ .checkbox p{
+     padding-left: 1rem;
+}
+aside {
+    background-color: #dde;
+    border-radius: 10px;
+}
+.product1 {
+    display: flex;
+    padding: .8rem;
+}
+.text1 {
+    padding: .8rem;
+}
+.product2 {
+    display: flex;
+    padding: .8rem;
+}
+.text2 {
+    padding: .8rem;
+}
+.ship-total {
+    margin: 3rem 1rem;
+}
+.shipping {
+    padding: .7rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(170, 170, 170);
+}
+.total {
+    padding: .7rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(170, 170, 170);
+}
+img {
+    width: 8rem;
+    border-radius: 9px;
+}
+
+
+}
+
+@media screen and (max-width: 960px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 26rem;
+    padding: 1rem 5rem 2rem;
+}
+
+section form {
+    height: 100vh;
+}
+
+section form h2 {
+    padding: 10px;
+    
+}
+
+
+.mail {
+    width: 90%;
+    padding: 6px;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.mail input {
+    width: 80%;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+.country {
+    height: 1.7rem;
+    width: 9rem;
+    padding: 6px;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.postal-code {
+    height: 1.7rem;
+    width: 15rem;
+    margin-left: 2rem;
+    padding: 6px;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.country-postal {
+    display: flex;
+    width: 380px;
+    height: 6rem;
+
+}
+
+#dropdown {
+    width: 92%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.country input {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+.postal-code input {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+label {
+    /* text-underline-offset: 4rem; */
+    display:inline-flex;
+}
+
+label, i {
+    color:rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+    display: flex;
+    justify-content:right;
+}
+
+.btn-in {
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 20px;
+    background-color: darkorange;
+    color: aliceblue;
+    font-size: medium;
+}
+
+.checkbox {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+ .checkbox p{
+     padding-left: 1rem;
+}
+aside {
+    background-color: #dde;
+    border-radius: 10px;
+}
+.product1 {
+    display: flex;
+    padding: .8rem;
+}
+.text1 {
+    padding: .8rem;
+}
+.product2 {
+    display: flex;
+    padding: .8rem;
+}
+.text2 {
+    padding: .8rem;
+}
+.ship-total {
+    margin: 3rem 1rem;
+}
+.shipping {
+    padding: .7rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(170, 170, 170);
+}
+.total {
+    padding: .7rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(170, 170, 170);
+}
+img {
+    width: 8rem;
+    border-radius: 9px;
+}
+.container {    
+    display: flex;
+    }
+}
